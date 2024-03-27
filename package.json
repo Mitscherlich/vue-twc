@@ -1,0 +1,29 @@
+{
+  "name": "vue-twc",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "unbuild",
+    "release": "bumpp && pnpm publish",
+    "rebease:beta": "bumpp --no-tag && pnpm publish --tag beta",
+    "prepublishOnly": "pnpm build"
+  },
+  "peerDependencies": {
+    "vue": "^2.7 || ^3.0.0-0"
+  },
+  "dependencies": {
+    "@m9ch/vue-forward-ref": "^0.1.1",
+    "vue-demi": "^0.14.7"
+  },
+  "devDependencies": {
+    "@m9ch/eslint-config-all": "^0.3.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "^8.57.0",
+    "unbuild": "^2.0.0",
+    "vite": "^5.2.6",
+    "vue": "^3.4.21"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

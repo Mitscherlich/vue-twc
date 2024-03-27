@@ -5,7 +5,7 @@
     "dev": "vite",
     "build": "unbuild",
     "release": "bumpp && pnpm publish",
-    "rebease:beta": "bumpp --no-tag && pnpm publish --tag beta",
+    "release:beta": "bumpp --no-tag && pnpm publish --tag beta",
     "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {

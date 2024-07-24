@@ -13,7 +13,7 @@ importers:
         version: 0.1.2(vue@3.4.34(typescript@5.4.5))
       vue-demi:
         specifier: ^0.14.7
-        version: 0.14.8(vue@3.4.34(typescript@5.4.5))
+        version: 0.14.9(vue@3.4.34(typescript@5.4.5))
     devDependencies:
       '@m9ch/eslint-config-all':
         specifier: ^0.3.2
@@ -3019,8 +3019,8 @@ packages:
       terser:
         optional: true
 
-  vue-demi@0.14.8:
-    resolution: {integrity: sha512-Uuqnk9YE9SsWeReYqK2alDI5YzciATE0r2SkA6iMAtuXvNTMNACJLJEXNXaEy94ECuBe4Sk6RzRU80kjdbIo1Q==}
+  vue-demi@0.14.9:
+    resolution: {integrity: sha512-dC1TJMODGM8lxhP6wLToncaDPPNB3biVxxRDuNCYpuXwi70ou7NsGd97KVTJ2omepGId429JZt8oaZKeXbqxwg==}
     engines: {node: '>=12'}
     hasBin: true
     peerDependencies:
@@ -6295,7 +6295,7 @@ snapshots:
   v-forward-ref@0.1.2(vue@3.4.34(typescript@5.4.5)):
     dependencies:
       vue: 3.4.34(typescript@5.4.5)
-      vue-demi: 0.14.8(vue@3.4.34(typescript@5.4.5))
+      vue-demi: 0.14.9(vue@3.4.34(typescript@5.4.5))
     transitivePeerDependencies:
       - '@vue/composition-api'
 
@@ -6314,7 +6314,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  vue-demi@0.14.8(vue@3.4.34(typescript@5.4.5)):
+  vue-demi@0.14.9(vue@3.4.34(typescript@5.4.5)):
     dependencies:
       vue: 3.4.34(typescript@5.4.5)
 

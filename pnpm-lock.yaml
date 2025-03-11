@@ -29,7 +29,7 @@ importers:
         version: 9.22.0(jiti@2.4.2)
       taze:
         specifier: ^19.0.0
-        version: 19.0.0
+        version: 19.0.1
       unbuild:
         specifier: ^3.0.0
         version: 3.5.0(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
@@ -2423,8 +2423,8 @@ packages:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
 
-  taze@19.0.0:
-    resolution: {integrity: sha512-LSeldvyMdmxw8PaYS8alSkXjsMxNrH3gAjl1h8lzXQd7+LVBobUzNEh+8F4ryRy730TEp/tXFElhSN+GkcAiFg==}
+  taze@19.0.1:
+    resolution: {integrity: sha512-vdcMhPufDSNV2h1WeQrkh3r750UMTDvMkmwCpckDQtGub1Yu/oqse08bmTTS7zhx6DNdMvFxxeG3bivIMfOrzQ==}
     hasBin: true
 
   tinyexec@0.3.2:
@@ -5200,7 +5200,7 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  taze@19.0.0:
+  taze@19.0.1:
     dependencies:
       '@antfu/ni': 24.1.0
       cac: 6.7.14

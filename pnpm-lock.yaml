@@ -29,7 +29,7 @@ importers:
         version: 9.23.0(jiti@2.4.2)
       taze:
         specifier: ^19.0.0
-        version: 19.0.1
+        version: 19.0.2
       unbuild:
         specifier: ^3.0.0
         version: 3.5.0(typescript@5.8.2)(vue@3.5.13(typescript@5.8.2))
@@ -42,8 +42,8 @@ importers:
 
 packages:
 
-  '@antfu/ni@24.1.0':
-    resolution: {integrity: sha512-Pq54C1N16BjLX4aHd7VJiuqxl+KoT9wOSyAZSnC2qDf1MraZ2c2b6FldjfeNsP1HBPvNhlCmZI91bNdmwXuuWQ==}
+  '@antfu/ni@24.3.0':
+    resolution: {integrity: sha512-wBSav4mBxvHEW9RbdSo1SWLQ6MAlT0Dc423weC58yOWqW4OcMvtnNDdDrxOZeJ88fEIyPK93gDUWIelBxzSf8g==}
     hasBin: true
 
   '@babel/code-frame@7.26.2':
@@ -2012,9 +2012,6 @@ packages:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
 
-  package-manager-detector@1.0.0:
-    resolution: {integrity: sha512-7elnH+9zMsRo7aS72w6MeRugTpdRvInmEB4Kmm9BVvPw/SLG8gXUGQ+4wF0Mys0RSWPz0B9nuBbDe8vFeA2sfg==}
-
   package-manager-detector@1.1.0:
     resolution: {integrity: sha512-Y8f9qUlBzW8qauJjd/eu6jlpJZsuPJm2ZAV0cDVd420o4EdpH5RPdoCv+60/TdJflGatr4sDfpAL6ArWZbM5tA==}
 
@@ -2276,8 +2273,8 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  quansync@0.2.8:
-    resolution: {integrity: sha512-4+saucphJMazjt7iOM27mbFCk+D9dd/zmgMDCzRZ8MEoBfYp7lAvoN38et/phRQF6wOPMy/OROBGgoWeSKyluA==}
+  quansync@0.2.10:
+    resolution: {integrity: sha512-t41VRkMYbkHyCYmOvx/6URnN80H7k4X0lLdBMGsz+maAwrJQYB1djpV6vHrQIBE0WBSGqhtEHrK9U3DWWH8v7A==}
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
@@ -2492,12 +2489,15 @@ packages:
     resolution: {integrity: sha512-Vhf+bUa//YSTYKseDiiEuQmhGCoIF3CVBhunm3r/DQnYiGT4JssmnKQc44BIyOZRK2pKjXXAgbhfmbeoC9CJpA==}
     engines: {node: '>=12.20'}
 
-  taze@19.0.1:
-    resolution: {integrity: sha512-vdcMhPufDSNV2h1WeQrkh3r750UMTDvMkmwCpckDQtGub1Yu/oqse08bmTTS7zhx6DNdMvFxxeG3bivIMfOrzQ==}
+  taze@19.0.2:
+    resolution: {integrity: sha512-SEFTzn2Armn0nsHt4tVoVEOGLb8mxnrYfgOItBfayCbaDHi9DrRkH7UP7wqra3b04kf6dW6KYdroIQCnCAzQOA==}
     hasBin: true
 
   tinyexec@0.3.2:
     resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
+
+  tinyexec@1.0.0:
+    resolution: {integrity: sha512-djtKaAR3lnRo0uMT/IKYwj3s4E86IE/SdwCE3XXIJcozbDFKsfgAmi8IBIpIDmTd0Y6YKyfqo3vQ33OloPJPaQ==}
 
   tinyglobby@0.2.12:
     resolution: {integrity: sha512-qkf4trmKSIiMTs/E63cxH+ojC2unam7rJ0WrauAzpT3ECNTxGRMlaXxVbfxMUC/w0LaYk6jQ4y/nGR9uBO3tww==}
@@ -2714,12 +2714,12 @@ packages:
 
 snapshots:
 
-  '@antfu/ni@24.1.0':
+  '@antfu/ni@24.3.0':
     dependencies:
       ansis: 3.17.0
       fzf: 0.5.2
-      package-manager-detector: 1.0.0
-      tinyexec: 0.3.2
+      package-manager-detector: 1.1.0
+      tinyexec: 1.0.0
 
   '@babel/code-frame@7.26.2':
     dependencies:
@@ -3047,7 +3047,7 @@ snapshots:
 
   '@quansync/fs@0.1.1':
     dependencies:
-      quansync: 0.2.8
+      quansync: 0.2.10
 
   '@rollup/plugin-alias@5.1.1(rollup@4.35.0)':
     optionalDependencies:
@@ -4777,8 +4777,6 @@ snapshots:
 
   p-try@2.2.0: {}
 
-  package-manager-detector@1.0.0: {}
-
   package-manager-detector@1.1.0: {}
 
   parent-module@1.0.1:
@@ -5019,7 +5017,7 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  quansync@0.2.8: {}
+  quansync@0.2.10: {}
 
   queue-microtask@1.2.3: {}
 
@@ -5313,13 +5311,13 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  taze@19.0.1:
+  taze@19.0.2:
     dependencies:
-      '@antfu/ni': 24.1.0
+      '@antfu/ni': 24.3.0
       cac: 6.7.14
       find-up-simple: 1.0.1
       ofetch: 1.4.1
-      package-manager-detector: 1.0.0
+      package-manager-detector: 1.1.0
       pathe: 2.0.3
       pnpm-workspace-yaml: 0.1.2
       restore-cursor: 5.1.0
@@ -5329,6 +5327,8 @@ snapshots:
       yaml: 2.7.0
 
   tinyexec@0.3.2: {}
+
+  tinyexec@1.0.0: {}
 
   tinyglobby@0.2.12:
     dependencies:
@@ -5447,7 +5447,7 @@ snapshots:
       '@quansync/fs': 0.1.1
       defu: 6.1.4
       jiti: 2.4.2
-      quansync: 0.2.8
+      quansync: 0.2.10
 
   unist-util-stringify-position@2.0.3:
     dependencies:

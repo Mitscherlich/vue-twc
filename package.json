@@ -19,7 +19,7 @@
   "devDependencies": {
     "@m9ch/eslint-config-all": "^0.3.2",
     "@vitejs/plugin-vue": "^6.0.0",
-    "bumpp": "^10.0.0",
+    "bumpp": "^11.0.0",
     "eslint": "^10.0.0",
     "taze": "^19.0.0",
     "unbuild": "^3.0.0",
